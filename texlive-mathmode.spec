@@ -1,3 +1,9 @@
+# revision 20742
+# category Package
+# catalog-ctan /info/math/voss/mathmode
+# catalog-date 2010-12-14 15:27:20 +0100
+# catalog-license lppl
+# catalog-version 2.47
 Name:		texlive-mathmode
 Version:	2.47
 Release:	1
@@ -64,6 +70,7 @@ bibliography and index.
 %doc %{_texmfdistdir}/doc/latex/mathmode/runLaTeX
 %doc %{_texmfdistdir}/doc/latex/mathmode/runPDFLaTeX
 %doc %{_texmfdistdir}/doc/latex/mathmode/runVTeX
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -74,3 +81,5 @@ bibliography and index.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

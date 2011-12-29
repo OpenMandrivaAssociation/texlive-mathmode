@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mathmode.doc.tar.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The review includes: Standard LaTeX mathematics mode; AMSmath;
@@ -70,7 +68,6 @@ bibliography and index.
 %doc %{_texmfdistdir}/doc/latex/mathmode/runLaTeX
 %doc %{_texmfdistdir}/doc/latex/mathmode/runPDFLaTeX
 %doc %{_texmfdistdir}/doc/latex/mathmode/runVTeX
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -81,5 +78,3 @@ bibliography and index.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

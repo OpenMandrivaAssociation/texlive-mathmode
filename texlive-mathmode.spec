@@ -78,3 +78,17 @@ bibliography and index.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.47-2
++ Revision: 753778
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.47-1
++ Revision: 718973
+- texlive-mathmode
+- texlive-mathmode
+- texlive-mathmode
+- texlive-mathmode
+

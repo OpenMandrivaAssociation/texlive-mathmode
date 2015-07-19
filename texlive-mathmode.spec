@@ -6,7 +6,7 @@
 # catalog-version 2.47
 Name:		texlive-mathmode
 Version:	2.47
-Release:	9
+Release:	10
 Summary:	A comprehensive review of mathematics in (La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/math/voss/mathmode

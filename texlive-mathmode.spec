@@ -9,7 +9,7 @@ Version:	2.47
 Release:	12
 Summary:	A comprehensive review of mathematics in (La)TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/math/voss/mathmode
+URL:		https://www.ctan.org/tex-archive/info/math/voss/mathmode
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mathmode.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mathmode.doc.tar.xz
